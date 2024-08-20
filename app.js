@@ -1,3 +1,67 @@
+//Lab1
+// class Calculator {
+//   constructor(_value = 0){
+//     this.value = _value 
+//   }
+//   add(num){
+//     this.value = this.value+num
+//     return this.value
+//   }
+//   subtract(num){
+//     this.value = this.value-num
+//     return this.value
+//   }
+//   multiply(num){
+//     this.value = this.value*num
+//     return this.value
+//   }
+//   divide(num){
+//     this.value = this.value/num
+//     return this.value
+//   }
+
+//   show() {
+//     console.log(`Value = ${this.value}`)
+//   }
+// }
+
+// let alice = new Calculator(10)
+// alice.show()
+// console.log(alice.add(5))
+// console.log(alice.subtract(2))
+// console.log(alice.multiply(20))
+// console.log(alice.divide(2))
+
+
+//lab2
+// class Sale {
+//   constructor(_name , _amount, _price){
+//     this.name = _name
+//     this.amount = _amount
+//     this.price = _price
+//   }
+//   calcPrice() {
+//     return this.amount*this.price
+//   }
+// }
+
+//   class Beverage extends Sale{
+//     constructor(_amount, _price){
+//       super(_amount, _price)
+//       this.amount = _amount
+//       this.price = _price
+//     }
+//   }
+
+// let beverage = new Beverage(3,19)
+// // console.log(Object.keys(beverage))
+// beverage.name = 'pepsi'
+// console.log(beverage)
+// console.log(beverage.calcPrice())
+
+
+
+
 //////////////////////Rest//////////////////////
 
 ///lab1
